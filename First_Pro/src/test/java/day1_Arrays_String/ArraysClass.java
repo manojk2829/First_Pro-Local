@@ -95,16 +95,21 @@ public class ArraysClass {
 		System.out.println(lo);
 	 }
 	 
-	 
+	
 	 public static void duplicateNumber() {
-		 int[] arr = {101, 5, 78, 3, 5,10}; 
+		 System.out.println("*******************************");
+		 System.out.println();
+		 int[] arr = {4, 5, 9, 4, 7, 9, 1, 5,5}; 
 		for(int i=0;i<arr.length;i++) {
 			for(int j=i+1;j<arr.length;j++) {
 				if(arr[i]==arr[j]) {
-					System.out.println(arr[i]);
+					System.out.print(arr[i]+" ");
+					break;
 				}
 			}
 		}
+		System.out.println();
+		System.out.println("*******************************");
 	 }
 	 
 	 
