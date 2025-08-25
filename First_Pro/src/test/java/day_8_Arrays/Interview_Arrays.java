@@ -6,13 +6,13 @@ public class Interview_Arrays {
 	
 	public static void main(String[] args) {
 		duplicate_number_from_Arrays();
-		/*
+	
 		second_hightest_without_SortingMethod();
 		System.out.println("**************************");
 		min_max_with_sorting_method();
 		second_hightest();
 		min_max_without_sorting();
-		*/
+		
 	}
 	
 	public static void duplicate_number_from_Arrays() {
